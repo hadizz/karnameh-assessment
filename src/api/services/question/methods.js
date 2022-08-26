@@ -1,4 +1,4 @@
-import {methodGet} from "../../../Shared/Constants/api";
+import {methodGet} from "../../../shared/constants/api";
 import {api} from "../../index";
 import {types, urls} from "./urls";
 

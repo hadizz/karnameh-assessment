@@ -1,8 +1,8 @@
 import React from 'react';
 import {BrowserRouter as Router} from "react-router-dom";
-import {appBaseUrl} from "./Shared/Constants/routes";
+import {appBaseUrl} from "./shared/constants/routes";
 import {Provider} from "react-redux";
-import store from "./Store";
+import store from "./store";
 
 const AppProvider = ({children}) => {
     return (
