@@ -1,20 +1,21 @@
 import React from 'react';
 import HomePage from "./Pages/Home";
 import QuestionPage from "./Pages/Question";
-import {Route, Switch} from 'react-router-dom';
+import {Routes, Route} from "react-router-dom";
 import * as routes from "./Shared/Constants/routes";
-import {appBaseUrl} from "./Shared/Constants/routes";
+import NotFoundPage from "./Pages/404";
 
 const App = () => {
     return (
-        <Switch>
-            <Route exact path={appBaseUrl} render={route => <HomePage route={route}/>}/>
-            <Route
-                exact
-                path={`${appBaseUrl}${routes.QUESTION_DETAILS_PAGE}/:id`}
-                render={route => <QuestionPage route={route}/>}
-            />
-        </Switch>
+        <Routes>
+            <Route path={'/'}>
+                <Route index element={<HomePage/>}/>
+                <Route path={routes.QUESTION_DETAILS_PAGE}>
+                    <Route path=':id' element={<QuestionPage/>}/>
+                </Route>
+                <Route index element={<NotFoundPage/>}/>
+            </Route>
+        </Routes>
     );
 };
 

@@ -1,10 +1,11 @@
 import React from 'react';
+import {useParams} from "react-router-dom";
 
-const Question = ({route}) => {
-
+const Question = () => {
+    let {id} = useParams();
     return (
         <div>
-            question {route.match.params.id}
+            question {id}
         </div>
     );
 };
