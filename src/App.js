@@ -8,12 +8,12 @@ import {appBaseUrl} from "./Shared/Constants/routes";
 const App = () => {
     return (
         <Switch>
+            <Route exact path={appBaseUrl} render={route => <HomePage route={route}/>}/>
             <Route
                 exact
                 path={`${appBaseUrl}${routes.QUESTION_DETAILS_PAGE}/:id`}
                 render={route => <QuestionPage route={route}/>}
             />
-            <Route exact path={appBaseUrl} render={route => <HomePage route={route}/>}/>
         </Switch>
     );
 };
