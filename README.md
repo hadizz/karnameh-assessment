@@ -5,7 +5,7 @@ simple question app for managing user questions,
 - [x] Clean up project
 - [x] Add react router and routes structure
 - [x] Add redux
-- [ ] Add typedoc & db
+- [x] Add json server & db
 - [ ] Work on app layout (header & page layout)
 - [ ] Home page setup
 - [ ] Question page setup
