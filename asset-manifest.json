@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/karnameh-assessment/static/css/main.0f4d5d3f.css",
-    "main.js": "/karnameh-assessment/static/js/main.42b5ef1c.js",
+    "main.js": "/karnameh-assessment/static/js/main.f29905a0.js",
     "index.html": "/karnameh-assessment/index.html",
     "main.0f4d5d3f.css.map": "/karnameh-assessment/static/css/main.0f4d5d3f.css.map",
-    "main.42b5ef1c.js.map": "/karnameh-assessment/static/js/main.42b5ef1c.js.map"
+    "main.f29905a0.js.map": "/karnameh-assessment/static/js/main.f29905a0.js.map"
   },
   "entrypoints": [
     "static/css/main.0f4d5d3f.css",
-    "static/js/main.42b5ef1c.js"
+    "static/js/main.f29905a0.js"
   ]
 }
