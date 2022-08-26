@@ -3,8 +3,8 @@ simple question app for managing user questions,
 
 ## Todo List
 - [x] Clean up project
-- [ ] Add react router and routes structure
-- [ ] Add redux
+- [x] Add react router and routes structure
+- [x] Add redux
 - [ ] Add typedoc & db
 - [ ] Work on app layout (header & page layout)
 - [ ] Home page setup
