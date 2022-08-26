@@ -1,9 +1,9 @@
 import React from 'react';
-import HomePage from "./Pages/Home";
-import QuestionPage from "./Pages/Question";
+import HomePage from "./pages/home";
+import QuestionPage from "./pages/question";
 import {Routes, Route} from "react-router-dom";
-import * as routes from "./Shared/Constants/routes";
-import NotFoundPage from "./Pages/404";
+import * as routes from "./shared/constants/routes";
+import NotFoundPage from "./pages/404";
 
 const App = () => {
     return (

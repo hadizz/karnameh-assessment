@@ -1,4 +1,4 @@
-import {API_BASE_URL} from "../../../Shared/Constants/api";
+import {API_BASE_URL} from "../../../shared/constants/api";
 
 export const types = {
     getQuestions: 'getQuestions'
