@@ -9,6 +9,7 @@ const App = () => {
     return (
         <Switch>
             <Route
+                exact
                 path={`${appBaseUrl}${routes.QUESTION_DETAILS_PAGE}/:id`}
                 render={route => <QuestionPage route={route}/>}
             />
